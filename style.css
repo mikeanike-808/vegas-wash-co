@@ -6,17 +6,17 @@
 :root {
   --color-bg: #ffffff;
   --color-bg-light: #dce8f8;
-  --color-navy: #0d2040;
-  --color-blue: #1565c0;
-  --color-blue-dark: #0d47a1;
-  --color-blue-light: #e3edf8;
-  --color-text: #111827;
-  --color-muted: #6b7280;
+  --color-navy: #0A1628;
+  --color-blue: #0057B8;
+  --color-blue-dark: #003d99;
+  --color-blue-light: #e0ecf8;
+  --color-text: #111111;
+  --color-muted: #5a6270;
   --color-border: #e5e7eb;
   --color-white: #ffffff;
 
   --font-display: 'Barlow Condensed', 'Arial Narrow', Arial, sans-serif;
-  --font-body: 'Barlow', Arial, sans-serif;
+  --font-body: 'Source Sans 3', Arial, sans-serif;
 
   --space-xs: 0.5rem;
   --space-sm: 0.75rem;
@@ -562,7 +562,7 @@ ul { list-style: none; }
 }
 .service-card:hover {
   border-color: var(--color-blue);
-  box-shadow: 0 4px 18px rgba(21, 101, 192, 0.12);
+  box-shadow: 0 4px 18px rgba(0, 87, 184, 0.12);
   transform: translateY(-2px);
 }
 .service-card__icon { color: var(--color-blue); }
@@ -618,7 +618,7 @@ ul { list-style: none; }
   border-radius: 50%;
   background: var(--color-blue);
   flex-shrink: 0;
-  box-shadow: 0 0 0 6px rgba(21, 101, 192, 0.25);
+  box-shadow: 0 0 0 6px rgba(0, 87, 184, 0.25);
 }
 .offer-banner__price-circle span {
   font-family: var(--font-display);
@@ -879,10 +879,11 @@ ul { list-style: none; }
 .footer-logo__name {
   display: block;
   font-family: var(--font-display);
-  font-size: 1.6rem;
+  font-size: 1.25rem;
   font-weight: 900;
   color: var(--color-blue);
-  letter-spacing: 0.08em;
+  letter-spacing: 0.07em;
+  white-space: nowrap;
 }
 .footer-logo__tagline {
   display: block;
